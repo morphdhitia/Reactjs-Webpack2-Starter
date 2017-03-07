@@ -1,12 +1,12 @@
 import React from 'react';
-import { Router, Route, IndexRoute, hashHistory } from 'react-router';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
-import Beranda from './components/Beranda';
+import App from './components/App';
 
 const Routes = () => {
   return (
-    <Router history={hashHistory}>
-      <Route path="/" component={Beranda}>
+    <Router history={browserHistory}>
+      <Route path="/" component={App}>
       
       </Route>
     </Router>

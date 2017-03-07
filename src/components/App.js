@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Beranda = ()=>{
+const App = ()=>{
     return(
         <pre>
            <center> 
@@ -10,4 +10,4 @@ const Beranda = ()=>{
     )
 }
 
-export default Beranda;
+export default App;
